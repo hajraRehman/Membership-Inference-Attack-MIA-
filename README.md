@@ -1,12 +1,8 @@
 # TML25_A1_13 - Membership Inference Attack
 
-**Course**: Trustworthy Machine Learning (SS 2025)  
-**Team**: Team 13  
-**Assignment**: A1 - Membership Inference Attack  
+## Task Overview
 
-## 🧠 Task Overview
-
-In this assignment, we implement a **Membership Inference Attack (MIA)** on a pretrained ResNet18 model. The objective is to determine whether a given image was part of the training dataset used to train the model.
+In this project, we implement a **Membership Inference Attack (MIA)** on a pretrained ResNet18 model. The objective is to determine whether a given image was part of the training dataset used to train the model.
 
 We are given:
 - A **pretrained ResNet18 model**
@@ -21,7 +17,7 @@ Our goal is to:
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 
@@ -37,7 +33,7 @@ Our goal is to:
 
 ---
 
-## 🧪 Methodology
+##  Methodology
 
 ### 1. **Model and Data Loading**
 - Loaded the pretrained ResNet18 model (`01_MIA.pt`).
@@ -126,8 +122,8 @@ These results indicate a successful attack well above random guessing (AUC = 0.5
 
 ## 👥 Contributors
 
-* Hafiza Hajrah Rehman   7063002
-* Atqa Rabiya Amir 7050250
+* Hafiza Hajrah Rehman   hafizahajra6@gmail.com
+* Atqa Rabiya Amir amiratqa@gmail.com
 
 ---
 
